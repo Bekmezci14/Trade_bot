@@ -12,7 +12,7 @@ def get_data(symbol):
     except Exception as e:
         return {"price": -1}
     
-print(get_data("AAPL")) 
+#print(get_data("AAPL")) 
 
 
 #print(api.get_trades(["AAPL", "GOOGL", "MSFT"]))

@@ -55,7 +55,7 @@ def analyze_message(message):
     pre_prompt = f"""
 You are a portfolio manager. Here is the user's portfolio data: {portfolio_data}
 Here are the user's open orders: {open_orders}
-Give short answers about the portfolio and orders based on the user's questions.
+Give an one sentence answer about the portfolio and orders based on the user's questions.
 
     """
     response = chat.send_message(pre_prompt + message)
